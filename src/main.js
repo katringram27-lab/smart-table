@@ -82,7 +82,7 @@ const applyPagination = initPagination(
         input.checked = isCurrent;
         label.textContent = page;
         return el;
-    }
+    },
 );
 
 

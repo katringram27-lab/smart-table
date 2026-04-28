@@ -14,7 +14,7 @@ export function initFiltering(elements, indexes) {
               option.value = name;
               option.textContent = name;
               return option;  
-            })
+            }),
         );
     });
 
